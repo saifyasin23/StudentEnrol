@@ -23,7 +23,7 @@ int numberOfStudents
 Double tuitionFees
 
     static constraints = {
-
+	
 	courseTitle blank: false, nullable: false
 
         department blank: false, nullable: false
@@ -43,6 +43,5 @@ Double tuitionFees
 	description blank: false, nullable: false, maxSize:5000
 
 	tuitionFees blank: false, nullable: false
-	
     }
 }
